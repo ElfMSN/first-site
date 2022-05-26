@@ -1,0 +1,31 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.card {
+    padding: 10px;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+
+}
+
+.html {
+    background: #f67d01;
+    color: white;
+}
+
+.css {
+    font-style:italic;
+    background:#209cd9;
+    color:white
+}
+
+#header {
+    background: #ddd;
+    padding: 10px;
+    margin-bottom: 10px
+}

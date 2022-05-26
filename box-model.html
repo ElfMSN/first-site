@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            background:darkorchid;
+            color:azure;
+
+            padding: 15px;
+            border: 2px solid red;
+            margin: 10px;
+        }
+
+        .blocks {
+            width: 100%;
+        }
+
+        .blocks .block {
+            width: 25%;
+            background:darkslategray;
+            height: 50px;
+            float: left;
+            border: 2px solid greenyellow;
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+    
+<div class="box">
+<h2>Box-model</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, itaque!</p>
+</div>
+
+<div class="box">
+    <h2>Box-model</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, itaque!</p>
+</div>
+
+<div class="blocks">
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+</div>
+
+</body>
+</html>

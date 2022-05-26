@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Roboto:ital,wght@1,300;1,900&display=swap');
+
+.avatar {
+    width: 150px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+
+body {
+    font-size: normal;
+    font-family: Roboto;
+    letter-spacing: 1px;
+    background: GhostWhite
+    color #0f141e
+}
+
+* {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin:auto;
+    padding: 15px;
+}
+
+nav {
+    font-weight: 500;
+}
+
+a {
+    color:midnightblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color:deeppink;
+    text-decoration: underline;
+}
+
+a:active {
+    color:#6495ED;
+}
+
+.card {
+    border-width: 0.5px;
+    border-style: solid;
+    border-color:lightgray;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.bg-red {
+    background: #FFE4E1
+}
+
+.bg-yellow {
+    background: #FFFFE0;
+}
+
+.bg-blue {
+    background: #E0FFFF
+}
+
+.info p {
+   word-spacing: 1px;
+   padding: 0.5px;
+   color:darkolivegreen
+}
+
+h2 {
+    color: rgba(150, 0, 0, 0.5)
+}
+
+.contacts h2 {
+    color:#0f141e;
+}
+
+.btn {
+    background: #6495ED;
+    color: whitesmoke;
+    border: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #ADFF2F;
+    opacity: 0.7;
+}
+
